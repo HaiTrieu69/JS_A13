@@ -1,0 +1,314 @@
+/* Thêm font từ google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Reset style */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0px;
+  margin: 0;
+  font-family: 'Kanit', sans-serif;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin-left: 10px;
+  }
+  
+  /* Dành cho máy tính bảng */
+  @media all and (max-width: 1024px) {
+  }
+  
+  
+  
+  
+  
+  /* Navbar */
+  .navbar {
+  /*  độ dài là toàn bộ màn hình  */
+    width: 100%;
+  /*  xếp các element con bên trong theo hàng ngang */
+    display: flex;
+  /*   dàn đều các element con theo hàng ngang và tạo ra các khoảng trống bằng nhau giữa các element con  */
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .menu {
+    display: flex;
+  /*  tạo ra khoảng trống giữa các element  */
+    gap: 30px;
+    font-size: 18px;
+  }
+  
+  .icon {
+    display: flex;
+    gap: 10px;
+  }
+  
+  li {
+  /*  cần relative để span.cart absolute theo  */
+    position: relative;
+  }
+  
+  li > span.cart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    background-color: #ff7245;
+    font-size: 14px;
+    border-radius: 50%;
+    
+  /*  Xét vị trí cố định theo li, luôn nằm ở góc trên bên phải của li  */
+    position: absolute;
+    top: -7px;
+    right: -7px;
+  }
+
+  .thanhmenu {
+    margin-top: -660px;
+    color: white;
+  }
+
+  .thi {
+    text-align: center;
+    color: #FFFFFF;
+    text-transform: uppercase;
+  }
+
+  .thi > h1 {
+    font-size: 50px;
+    margin-top: -20px;
+  }
+
+  .thi > h3 {
+    font-size: 25px;
+    margin-top: 70px;
+  }
+
+  .nhanvat {
+    margin-top: 400px;
+    justify-content: space-between;
+    padding: 20px;
+  }
+
+  .theloai {
+    display: flex;
+    margin-top: -10px;
+  }
+
+  .sapxong > img {
+    height: 500px;
+    width: 1250px;
+    margin-left: 50px;
+    margin-top: 50px;
+  }
+
+  .tronganh {
+    margin-top: -400px;
+    margin-left: 130px;
+    text-transform: uppercase;
+  }
+
+  .tronganh > h2 {
+    color: #ff6600;
+    font-size: 30px;
+  }
+
+  .tronganh > h3 {
+    font-size: 20px;
+    margin-top: -90px;
+  }
+
+  .tronganh > h1 {
+    margin-top: -50px;
+  }
+
+  ul.dssp {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: -100px;
+}
+
+.sanpham > img {
+    width: 290px;
+    height: 240px;
+    object-fit: cover;
+    
+}
+
+.sanpham > .gia {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 26px;
+}
+
+.gia > span {
+    font-size: 20px;
+    text-align: center;
+}
+
+.gia > button {
+    padding: 5px 5px;
+    border: none;
+    outline: none;
+    background-color: #0c75ae;
+    color: #ffffff;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.gia > button:active {
+    background-color: #084c70;
+}
+
+.gia > button > svg {
+    width: 20px;
+    height: 20px;
+}
+
+
+
+ul.dssp1 {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    margin-top: 89px;
+    text-align: center;
+}
+
+.sanpham1 > img {
+    width: 290px;
+    height: 240px;
+    object-fit: cover;
+}
+
+.sanpham1 > .gia {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+}
+
+.gia > span {
+    font-size: 20px;
+}
+
+.gia > button {
+    padding: 5px 10px;
+    border: none;
+    outline: none;
+    background-color: #0c75ae;
+    color: #ffffff;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.gia > button:active {
+    background-color: #084c70;
+}
+
+.gia > button > svg {
+    width: 20px;
+    height: 20px;
+}
+
+
+.uhh {
+    display: flex;
+    margin-top: 100px;
+}
+
+
+.uhh1   {
+    margin-left: 90px;
+    margin-top: -330px;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+}
+
+.searchButton {
+    width: 120px;
+    height: 40px;
+    border: 1px solid #080808;
+    background: #020202;
+    color: #fff;
+    border-radius: 0 0px 0px 0;
+    cursor: pointer;
+    font-size: 20px;
+    margin-left: 94px;
+  }
+
+.searchButton > p {
+    font-size: 15px;
+    margin: 5px;
+}
+
+.chitiet {
+    display: flex;
+}
+
+
+
+.cot1 {
+    margin-left: 50px;
+}
+.cot1 > img {
+    height: 180px;
+    width: 180px;
+    margin-top: 30px;
+    
+}
+
+.cot2 > img {
+    height: 180px;
+    width: 180px;
+    margin-top: 30px;
+    
+}
+
+.hang1 > img {
+    width: 180px;
+    height: 180px; 
+    margin-top: 20px;
+}
+
+.hang1 {
+    margin-left: 60px;
+    display: flex;
+}
+
+.chitiet1 {
+    margin-top: 30px;
+}
+
+.chitiet2 {
+    margin-top: 30px;
+}
+
+.gn > img {
+  height: 180px;
+  width: 180px;
+}
+
+.buh {
+  display: flex;
+}

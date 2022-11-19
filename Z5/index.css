@@ -1,0 +1,185 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: monospace;
+}
+
+ul.dssp {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.sanpham > img {
+    width: 290px;
+    height: 240px;
+    object-fit: cover;
+    
+}
+
+.sanpham > .gia {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 26px;
+}
+
+.gia > span {
+    font-size: 20px;
+    text-align: center;
+}
+
+.gia > button {
+    padding: 5px 5px;
+    border: none;
+    outline: none;
+    background-color: #0c75ae;
+    color: #ffffff;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.gia > button:active {
+    background-color: #084c70;
+}
+
+.gia > button > svg {
+    width: 20px;
+    height: 20px;
+}
+
+
+
+ul.dssp1 {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    margin-top: 89px;
+    text-align: center;
+}
+
+.sanpham1 > img {
+    width: 290px;
+    height: 240px;
+    object-fit: cover;
+}
+
+.sanpham1 > .gia {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+}
+
+.gia > span {
+    font-size: 20px;
+}
+
+.gia > button {
+    padding: 5px 10px;
+    border: none;
+    outline: none;
+    background-color: #0c75ae;
+    color: #ffffff;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.gia > button:active {
+    background-color: #084c70;
+}
+
+.gia > button > svg {
+    width: 20px;
+    height: 20px;
+}
+
+
+.uhh {
+    display: flex;
+}
+
+
+.uhh1   {
+    margin-left: 90px;
+    margin-top: -330px;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+}
+
+.searchButton {
+    width: 120px;
+    height: 40px;
+    border: 1px solid #080808;
+    background: #020202;
+    color: #fff;
+    border-radius: 0 0px 0px 0;
+    cursor: pointer;
+    font-size: 20px;
+    margin-left: 94px;
+  }
+
+.searchButton > p {
+    font-size: 15px;
+    margin: 5px;
+}
+
+.chitiet {
+    display: flex;
+}
+
+
+
+.cot1 {
+    margin-left: 50px;
+}
+.cot1 > img {
+    height: 180px;
+    width: 180px;
+    margin-top: 30px;
+    
+}
+
+.cot2 > img {
+    height: 180px;
+    width: 180px;
+    margin-top: 30px;
+    
+}
+
+.hang1 > img {
+    width: 180px;
+    height: 180px; 
+}
+
+.hang1 {
+    margin-left: 50px;
+    display: flex;
+}
+
+.chitiet1 {
+    margin-top: 30px;
+}
+
+.chitiet2 {
+    margin-top: 30px;
+}
+

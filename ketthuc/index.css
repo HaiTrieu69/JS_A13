@@ -1,0 +1,15 @@
+.flex {
+  display: flex;
+}
+
+hr {
+  width: 1px;
+  height: 0.1px;
+  background-color: black;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  border-width: 2px;
+  border-color: black;
+  }

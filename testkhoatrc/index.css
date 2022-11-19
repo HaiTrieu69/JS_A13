@@ -1,0 +1,333 @@
+
+ul {
+	list-style-type: none;
+	margin: 1;
+	padding: 0;
+	overflow: hidden;
+	background-color: white;
+  font-family:  Arial;
+}
+
+li {
+	float: left;
+	font-size: 12px;
+  font-family:  Arial;
+}
+
+li a, .droptn {
+	display: inline-block;
+	color: black;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+  font-family:  Arial;
+}
+
+li a:hover, .dropdown:hover .droptn {
+	background-color: rgb(209, 209, 209);
+}
+
+li .dropdown {
+	display: inline-block;
+	font-size: 12px;
+  font-family:  Arial;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 80px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+  font-family:  Arial;
+}
+
+.dropdown-content a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+  font-family:  Arial;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  body {
+    margin: 0;
+  }
+  .column {
+    float: left;
+    width: 50%;
+    padding: 15px;
+  }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+    @media screen and (max-width:600px) {
+      .column {
+      width: 100%;
+    }
+  }
+  .bla {
+      text-align: center;
+      font-size: 12px;
+      color: white ;
+      padding-bottom: 10px;
+      font-family:  Arial;
+  }
+
+  .hoho {
+    margin: 10px;
+    font-family:  Arial;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .non {
+    background-color: black;
+    font-family:  Arial;
+  }
+  .hehe {
+    text-align: center;
+    font-size: 12px;
+    font-family:  Arial;
+  }
+  
+* {
+    box-sizing: border-box;
+  }
+  body {
+    margin: 0;
+  }
+  .hallo {
+    float: left;
+    width: 50%;
+    padding: 15px;
+    font-family:  Arial;
+  }
+  .hello:after {
+    content: "";
+    display: table;
+    clear: both;
+    font-family:  Arial;
+  }
+    @media screen and (max-width:600px) {
+      .column {
+      width: 100%;
+    }
+  }
+
+
+.main {
+    text-align: center;
+    font-family:  Arial;
+    margin: 2px;
+}
+
+
+div.Tiêu_đề {
+text-align: center;
+font-family:  Arial;
+}
+
+div.henshin {
+  /* width: 1298px; */
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  padding: 1px;
+  /* width:140%; */
+  font-family:  Arial;
+}
+ 
+div.button {
+  background-color: white;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  
+}
+
+div.khovailoz {
+  background-color: black;
+  /* width: 1298px; */
+  display: flex;
+  margin: 1px;
+  padding: 1px;
+  margin-left: 8px;
+  color:#f1f1f1;
+  font-family:  Arial;
+}
+
+div.vcl {
+  color: #bc8b4c;
+  font-family:  Arial;
+  
+}
+
+div.nonvl {
+  color: white;
+  text-align: center;
+  background-color: black;
+  font-family:  Arial;
+}
+
+
+.icon-bar {
+  width: 100%;
+  background-color: black;
+  overflow: auto;
+  font-family:  Arial;
+}
+
+.icon-bar a {
+  float: left;
+  width: 20%;
+  font-family:  Arial;
+  text-align: center;
+  padding: 12px 0;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 36px;
+}
+
+.icon-bar a:hover {
+  background-color: #000;
+  font-family:  Arial;
+}
+
+
+div.ore {
+  background-color: black;
+  font-size: 0%;
+  width: 50%;
+  margin: auto;
+  font-family:  Arial;
+}
+
+div.oreooo {
+  text-align: center;
+  color: white;
+  background-color: black;
+  margin: 0px;
+  float: left;
+  font-family:  Arial;
+  text-align: center;
+  padding: 12px 0;
+  font-size: 36px;
+  width: 100%;
+  }
+
+  .container {
+    /* width: 1300px; */
+    padding: 0px;
+    /* height: 100px; */
+    display: flex;
+    justify-content: center;
+    font-family:  Arial;
+    border:2px solid Tomato;
+ }
+
+ .containerpart2 {
+  /* width: 1300px; */
+  padding: 0px;
+  /* height: 500px; */
+  font-family:  Arial;
+  background-color: white;
+  
+ }
+
+ .postpart2 {
+  width: 800px;
+  height: 500px;
+  background: white;
+  float: left;
+  text-align: center;
+  font-family:  Arial;
+
+ }
+ .slidebarpart2 {
+  width: 500px;
+  height: 600px;
+  background: white;
+  float: right;
+  text-align: center;
+  margin-top: 200px;
+  font-family:  Arial;
+
+ }
+
+ .post {
+  /* width: 625px; */
+  /* height: 500px; */
+  background: white;
+  float: left;
+  text-align: center;
+  font-family:  Arial;
+  margin-right: 100px;
+}
+
+.sidebar {
+  /* width: 650px; */
+  /* height: 500px; */
+  background: white;
+  float: right;
+  font-family: arial, helvetica, sans-serif;
+  text-align: center;
+  margin-top: 25px;
+  margin-left: 100px;
+  font-family:  Arial;
+ }
+
+ .clear { clear: both }
+
+ div.tryhard {
+  text-align: center; 
+  margin-bottom: 40px;
+  font-family:  Arial;
+}
+
+div.oidoioi {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 10px;
+  padding: 1px; 
+  font-family:  Arial;
+}
+
+
+
+div.ok {
+  text-align: center;
+  margin-top: 100px;
+  font-family:  Arial;
+  
+  
+}
+
+div.huhuhu {
+  text-align: center;
+  font-size: 17px;
+  font-family:  Arial;
+}
+
+.uwu {
+  text-align: center;
+  margin-bottom: 150px;
+}
