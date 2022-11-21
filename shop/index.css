@@ -312,3 +312,28 @@ ul.dssp1 {
 .buh {
   display: flex;
 }
+
+.ngoisao {
+  display: flex;
+  height: 40px;
+  text-align: center;
+  justify-content: center;
+  padding: 80px;
+}
+
+.trichdan1 {
+  padding: 10px;
+  text-align: center;
+  font-size: 25px;
+}
+
+.trichdan2 {
+  text-align: center;
+  padding: 30px;
+  font-size: 25;
+}
+
+.background-sua {
+  background-color: #dce6ec;
+  margin-top: 20px;
+}
