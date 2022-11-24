@@ -313,3 +313,57 @@ align-items: center;
     margin-top: 100px;
     margin-left: 400px;
 }
+.thongtin > p {
+  font-size: 20px;
+  color: hsl(0, 0%, 66%);
+  font-weight: 400;
+}
+
+
+
+
+.button3 {
+  display: inline-block;
+  padding: 7px 12px;
+  color: black;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  position: relative;
+  font-size: 19px;
+  margin-left: 20px; 
+  text-align: center;
+  
+}
+
+.button3:before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 0;
+  height: 35px;
+  width: 0px;
+  background-color: #ff7245;
+  z-index: -1;
+  transition: width 0s ease-in;
+  margin-top: 43px;
+}
+
+.button3:hover:before {
+  width: 100%;
+}
+
+.haitamanh1 {
+  display: flex;
+  height: 710px;
+}
+
+.flex3icon {
+  display: flex;
+  margin-top: -30px;
+}
+.flex3icon > h6 {
+  margin-right: 810px;
+  font-size: 20px;
+  font-weight: 400;
+}
