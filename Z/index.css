@@ -177,8 +177,12 @@ hr {
   }
  .flex1 {
   display: flex;
+  font-size: 20px;
+  color: rgb(132, 138, 132);
  }
-
+ .flex1 > p {
+  margin-left: 18px;
+ }
  .bodyketthuc {
   background-color: #151515;
   margin-top: 400px;
@@ -261,4 +265,9 @@ hr {
 .searchButton1 {
   margin-top: 300px;
   margin-left: 700px;
+}
+
+.nhapemail {
+  display: flex;
+  align-items: center;
 }
