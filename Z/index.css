@@ -38,7 +38,7 @@ ul {
   padding: 20px;
 }
 
-.menu {
+.menu1 {
   display: flex;
 /*  tạo ra khoảng trống giữa các element  */
   gap: 30px;
@@ -71,22 +71,21 @@ li > span.cart {
   right: -7px;
 } 
 
- .chenchu1 {
-    
-        color: black;
-        position: absolute;
-        top: 175px;
-        margin-left: 600px;
-        color:#fff;
+ .chenchu1 {  
+  color: black;
+  position: absolute;
+  top: 175px;
+  margin-left: 680px;
+  color:#fff;
+  font-size: 52px;
         
  }
 
  .chenchu2 {
-    
     color: black;
     position: absolute;
     top: 280px;
-    margin-left: 600px;
+    margin-left: 650px;
     font-size: 20px;
     color:#fff;
 }
@@ -95,12 +94,15 @@ li > span.cart {
     position: absolute;
     color: black;
     top: 280px;
-    margin-left: 660px;
+    margin-left: 740px;
     font-size: 20px;
     color:#fff;
  }
 
-
+.trungdiem > img {
+  height: 440px;
+   width: 100%;
+}
 
  
 
@@ -144,9 +146,21 @@ div.flex {
   color: rgb(132, 138, 132);
   font-size: 20px;
 }
+.so3 > h3 {
+  color:white; 
+  margin-top: 55px; 
+  margin-right: 250px;
+}
 .so4 > p {
   font-size: 20px;
   color: rgb(132, 138, 132);
+}
+.so4 > h3 {
+  color:white;
+  margin-top: 55px;
+}
+.nu {
+  height: 33px; color: orange;
 }
 
 .form-control {
@@ -183,6 +197,11 @@ hr {
  .flex1 > p {
   margin-left: 18px;
  }
+ .flex1 > img {
+  height: 35px; 
+  margin-top: 10px; 
+  margin-left: 527px;
+ }
  .bodyketthuc {
   background-color: #151515;
   margin-top: 400px;
@@ -194,7 +213,12 @@ hr {
 }
 
 
-
+.art {
+  margin-top: 20px;
+  width:500px;
+  height:270px; 
+  margin-left: 400px;
+}
 
 
  
@@ -202,19 +226,25 @@ hr {
   display: flex;
 }
 
+
 .flex4 {
   display: flex;
 }
-
-.flex6 {
-  display: flex;
+.flex4 > img {
+  width:100px;
+  height:80px;
+  margin-left: 20px;
 }
 
 .flex7 {
   display: flex;
   
 }
-
+.anhshop {
+  margin-left: 13px;
+  height: 400px;
+  width: 310px;
+}
 
 
 .search {
@@ -258,17 +288,103 @@ hr {
   
   position: absolute;
   top:567px;
-  left: 11%;
+  left: 170px;
   transform: translate(-50%, -50%);
 
 }
 
-.searchButton1 {
-  margin-top: 300px;
-  margin-left: 700px;
-}
+
 
 .nhapemail {
   display: flex;
   align-items: center;
+}
+.nhapemail > input {
+  height: 60px; 
+  width: 250px;
+  display: inline-block;
+}
+.nhapemail > button {
+  height: 61px; 
+  width: 70px;
+  margin-left: 5px; 
+  background-color: #ff7245;
+}
+
+.cate {
+  margin-left: 21px;
+  margin-top: -2070px;
+}
+.cate1 {
+  margin-left: 21px;
+  color: grey;
+}
+
+.tia {
+  color: grey;
+  margin-left: 13px;
+}
+.recent > h5 {
+  margin-left: 13px;
+   color: grey
+}
+.dai  {
+  margin-left: 400px;
+  color: grey;
+}
+.muc {
+  margin-left: 15px;
+}
+.month {
+  font-size: 14px;
+  margin-top: -1px; 
+  color:gray;
+}
+.gach {
+  margin-left: 13px; 
+  margin-top: -13px; 
+  color: grey;
+}
+.gach1 {
+  margin-left: 13px; 
+  margin-top: -1px; 
+  color: grey;
+}
+.cmt {
+  margin-left: -82px; 
+  margin-top: -18px; 
+  color:gray; 
+  font-size: 13px;
+}
+.ten {
+  margin-left: -82px;
+}
+.airn {
+  margin-top: 50px; 
+  margin-left: 15px;
+}
+.linkcolor {
+  color: #fff;
+}
+.ic {
+  width:24px;
+  height:25px; 
+  margin-left: 17px;
+}
+.ha1 {
+  margin-top: -10px;
+  font-size: 28px;
+}
+.ha {
+  font-size: 14px; 
+  color: orange;
+}
+.ha2 {
+  margin-top: -10px; 
+  color: grey;
+}
+.ha3 {
+  margin-top: -10px; 
+  margin-top: 30px; 
+  color: grey;
 }
